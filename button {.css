@@ -1,0 +1,29 @@
+a{
+ color:#fff;
+ text-decoration: none;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #689CD2;
+    color: #fff;
+    font-family: Uni Sans;
+}
+.header__section{
+    display: flex;
+    align-items: center;
+}
+.header__item{
+     padding: 10px 15px;
+     font-size: 20px;
+     align-items: center;
+}
+.header__itemв:hover{
+    background-color: #FF9900;
+    border-radius: 4px;
+}
+section {
+    min-width: 425px;
+  }
+ 
