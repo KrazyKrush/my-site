@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tutorial</title>
+    <link rel="stylesheet" href="button {.css">
+    <meta >
+    <body>
+        <div class="header">
+            <div class="header_selection">
+                <div class header_item headerlogo>
+
+                </div>
+                <div class= "header__item headerButton"><a href="#">
+                    Главное</a></div>
+                <div class= "header__item headerButton"><a href="#">
+                    Инфа</a></div>
+                <div class= "header__item headerButton"><a href="#">
+                    Связь</a></div>
+            </div>
+            <div class="header__section">
+                <div class="header__item headerButton"><a href="#">                 
+                Настройки</a></div>
+                <div class="header__item headerButton"><a href="#">                 
+                Отзывы</a></div>
+            </div>
+        </div>
+    </body>
+        <script type="text/javascript">
+            window.onload = function() {
+                var button = document.getElementById('input_button_bg_change');
+                var body = document.getElementsByTagName('body')[0];
+                var colors = ['blue', 'grey', 'black', 'white', 'red', 'green', '#aaa', '#FFAACC', 'rgb(122,111,110)'];
+                button.onclick = function() {
+                    body.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+                };
+            };
+            </script>
+            </head>
+            <body>
+                <input type="button" id="input_button_bg_change" value="Change background color"/>
+            </body>
+            <table  align="center" position: sticky;>
+                <tr>
+                    <td>
+                        <button name="title" value="No" class="green"> <a href=“#Игры убивают?”>Главная</a>
+                        <img style="vertical-align: 15; width: 5px;" src="http://.../icon.png" alt="" />
+                        </button>
+                        <button name="Grand_Information" value="No" class="green">
+                            <img style="vertical-align: 15; width: 5px;" src="http://.../icon.png" alt="" />
+                        Инфа
+                        </button >
+                        <button name="connection" value="No" class="green">
+                        <img style="vertical-align: 15; width: 5px;" src="http://.../icon.png" alt="" />
+                        Связь
+                        </button>
+                    </td>
+                </tr>
+            </table>
+    <body style="background-color: greenyellow;">
+    <hr/>
+    <table>
+        <tr>
+            <td><img src="peint.jpg" width=300></td>
+            <a id=“Игры убивают?”></a><td><h1> Игры убивают? </h1>
+                <p><em> Убивают ли детей игры??? Сегодня мы это выясним. </em></p></td>
+        </tr>
+        <td><em>Спойлер, не убивают, а наоборот!</em></td>
+    </table>
+    <hr/>
+    <h2 align="center"> Основная информация. </h2>
+    <ul>
+        <ul>Игры не являются причиной убийств: максимум, что они дают — отдалённое представление о войне. К тому же, игрок понимает, что это игра и не переносит подобное поведение на реальность, тут сомневаться не стоит.
+            Агрессию в долгосрочной перспективе игры также не повышают, это не подтвердилось соответствующими исследованиями. В чём же причина нарушения закона людьми, игравшими в видеоигры? В воспитании, психических расстройствах. Но не в играх.</ul>
+        <table style="background-color: darkviolet;" border="1">
+        <tr style="background-color: grey;">
+            <td>Дети</td>
+            <td>Взрослеют и умнеют и никого не убивают</td>
+            <td>90%</td>
+        </tr>
+        <tr style="background-color: mediumpurple;">
+            <td>Взрослые дети</td>
+            <td>Так и остаются детьми и сидят в компе безвылазно</td>
+            <td>7%</td>
+        </tr>
+        <tr style="background-color: rgb(26, 221, 114);">
+            <td>F</td>
+            <td>Настоящий процент людей пострадавших из-за технологий</td>
+            <td>3%</td>
+        </tr>
+    </table>
+    <hr/>
+    <h2><em>Как со мной связаться?</em></h2>
+    <ul>
+        <li><a target="_blank" href = "https://vk.com/micter_crow">ВКонтакте</a></li>
+    </ul>
+    <hr/>
+    <h2><em>Обратная Связь</em></h2>
+    <form action="/deal 2.0.html">
+        <label for="name"> Имя: </label>
+        <input type="text" id="name" placeholder="Ваше имя...">
+        <br/>
+        <label for="email"> Email: </label>
+        <input type="email" id="emale" placeholder="Ваш email...">
+        <br/>
+        <label for="text"> Текст: </label>
+        <textarea id="text" rows="3" placeholder="Введите что нибудь странное..."></textarea>
+        <br/>
+        <input type="submit" value="Лайкнуть">
+        <input type="submit" value="Дизлайкнуть">
+    </form>
+</body>
+</html>
